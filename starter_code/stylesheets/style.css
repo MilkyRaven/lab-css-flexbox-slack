@@ -76,6 +76,7 @@ header {
 #email-btn {
     font-size: 1.2em;
     font-weight: 500;
+    width: 90%;
     text-transform: uppercase;
     color: #540B51;
     border-radius: 10px;
@@ -101,6 +102,7 @@ header {
     border-radius: 10px;
     align-items: center;
     border: none;
+    width: 90%;
 }
 #google-btn > span {
     text-transform: uppercase;
@@ -146,7 +148,7 @@ header {
     background-color: #F3EAE2;
 }
 .team-txt h2, .work-txt h2, .tools-txt h2 {
-    font-size: 1em;
+    font-size: 1.7em;
     font-weight: 700;
     text-align: left;
     padding: 10px;
@@ -158,7 +160,7 @@ header {
     text-align: justify;
     line-height: 1.4em;
     padding: 10px;
-    margin: 20px;
+    margin: 15px;
 }
 .link {
     text-decoration: none;
@@ -178,12 +180,15 @@ header {
     flex-flow: wrap column;
 }
 .slack-stats h3 {
-    font-size: 1em;
-    padding: 20px;
+    font-size: 2em;
+    margin-top: 15px;
+    padding: 10px;
+    text-align: center;
 }
 .slack-stats > p {
     font-size: 1em;
-    padding: 20px;
+    padding: 10px;
+    text-align: center;
 }
 .btn-box {
     display: flex;
@@ -195,15 +200,17 @@ header {
     font-size: 1em;
     font-weight: 500;
     text-transform: uppercase;
-    border-radius: 10px;
-    border: none;
+    border-radius: 5px;
     margin-top: 20px;
 }
 .slack-stats-ls {
     list-style: none;
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
 }
 .stats-num {
-    font-size: 1em;
+    font-size: 2.5em;
     font-weight: 800;
     color: #540B51;
 }
@@ -217,18 +224,27 @@ header {
     flex-flow: column wrap;
     background-color: #540B51;
     width: 100%;
-    height: 300px;
-    border-bottom-left-radius: 40%;
-    border-bottom-right-radius: 40%;
+    height: 370px;
+    border-bottom-left-radius: 30%;
+    border-bottom-right-radius: 30%;
 }
 .last-section h3 {
     color: white;
-    font-size: 1em;
+    font-size: 2em;
     font-weight: 700;
-    align-self: center;
     padding: 25px;
-    margin-top: 15px;
-    margin-left: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+.white-button {
+    background-color:#540B51;
+    border-color: white;
+    color: white;
+
+}
+.purple-button {
+    border: none;
+    color: #540B51;
 }
 
 /* FOOTER */
