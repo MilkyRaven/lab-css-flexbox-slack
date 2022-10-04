@@ -14,10 +14,6 @@ footer links grey: #454245
     font-size: 16px;
     font-family: "Helvetica Neue";
 }
-body {
-    width: 200vh;
-    background-color:#F3EAE2
-}
 nav {
     display: flex;
     flex-flow: wrap row;
@@ -27,27 +23,29 @@ nav {
 .menu-container {
     display: flex;
     flex-flow: row wrap;
-    padding: 80px;
 }
 #logo {
+    width: 150px;
+    height: 40px;
     justify-content: flex-start;
+    margin: 30px;
 }
 .menu-container > ul {
     display: none; /* does this elimate the functionality*/
 }
 .search {
-    margin-top: 80px;
+    margin-top: 20px;
 }
 .search > button {
     background-color: transparent;
     border: none;
 }
 .nav-btn > img {
-    height: 70px ;
-    width: 70px;
-    padding: 25px;
+    height: 20px ;
+    width: 20px;
+    padding: 10px;
 } 
-
+ 
 /* HEADER SECTION */
 
 header {
@@ -57,14 +55,13 @@ header {
 }
 .intro-text {
     color: white;
-    padding: 80px;
 }
 .intro-text h1 {
-    font-size: 9em;
+    font-size: 2.5em;
     text-align: center;
 }
 .intro-text p {
-    font-size: 3em;
+    font-size: 1.5em;
     text-align: center;
     margin-top: 20px;
 }
@@ -77,77 +74,99 @@ header {
     flex-direction: column;
 }
 #email-btn {
-    width: 1000px;
-    height: 150px;
-    font-size: 2.2em;
+    font-size: 1.2em;
     font-weight: 500;
     text-transform: uppercase;
     color: #540B51;
-    border-radius: 20px;
-    margin-top: 50px;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 20px;
+    border: none;
+}
+#google-icon {
+    width: 30px;
+    height: 30px;
+}
+#google-back {
+    background-color:white;
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+    padding: 10px;
 }
 #google-btn {
     display: flex;
-    width: 1000px;
-    height: 150px;
-    margin-top: 20px;
+    margin-top: 10px;
     background-color: #4285F4;
-    border-radius: 20px;
+    border-radius: 10px;
     align-items: center;
+    border: none;
 }
 #google-btn > span {
     text-transform: uppercase;
-    font-size: 2.2em;
+    font-size: 1.2em;
     font-weight: 500;
     color: white;
+    padding: 10px;
+}
+#hero-img, #team-img, #work-img, #tools-img {
+    width: 100%;
+    height: 100%;
 
 }
+
+
 .companies {
     background-color: #F3EAE2;
 }
 .companies p {
-    font-size: 3em;
+    font-size: 0.8em;
     text-align: center;
     text-transform: uppercase;
     font-weight: 500;
-    padding-top: 90px;
+    padding: 30px;
 }
 .companies-img {
+    display: flex;
+    flex-flow: row wrap;
     margin-left: 30px;
     margin-right: 30px;
 }
 
 .companies-img > img {
-    padding: 30px;
+    padding: 10px;
+    width: 20%;
+    height: 20%;
 }
+
 /* TEAM SECTION */
 .team-section, .work-section, .tools-section {
     display: flex;
     flex-flow: column wrap;
-    margin-top: 70px;
+    background-color: #F3EAE2;
 }
 .team-txt h2, .work-txt h2, .tools-txt h2 {
-    font-size: 5.5em;
+    font-size: 1em;
     font-weight: 700;
     text-align: left;
-    padding: 25px;
-    margin-top: 35px;
-    margin-left: 25px;
+    padding: 10px;
+    margin-top: 5px;
+    margin-left: 5px;
 }
 .team-txt p, .work-txt p, .tools-txt p {
-    font-size: 3em;
+    font-size: 1em;
     text-align: justify;
     line-height: 1.4em;
-    padding: 50px;
-    margin-left: 25px;
+    padding: 10px;
+    margin: 20px;
 }
 .link {
     text-decoration: none;
 }
 .link-text {
-    font-size: 3em;
-    padding: 25px;
-    margin-left: 25px;
+    font-size: 1em;
+    padding: 10px;
+    margin: 20px;
     text-align: left;
     color: #2E71A6;
 }
@@ -159,80 +178,108 @@ header {
     flex-flow: wrap column;
 }
 .slack-stats h3 {
-    font-size: 5.5em;
-    padding: 80px;
+    font-size: 1em;
+    padding: 20px;
 }
 .slack-stats > p {
-    font-size: 3em;
-    padding: 50px;
+    font-size: 1em;
+    padding: 20px;
 }
 .btn-box {
     display: flex;
     flex-flow: column wrap;
 }
 .btn-box > button {
-    width: 1000px;
-    height: 150px;
-    font-size: 2.2em;
+    width: 300px;
+    height: 50px;
+    font-size: 1em;
     font-weight: 500;
     text-transform: uppercase;
-    border-radius: 20px;
+    border-radius: 10px;
     border: none;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 .slack-stats-ls {
     list-style: none;
 }
 .stats-num {
-    font-size: 6em;
+    font-size: 1em;
     font-weight: 800;
     color: #540B51;
 }
 .stats-txt {
-    font-size: 2.5em;
+    font-size: 1em;
     font-weight: 500;
 }
-/* LAST SECTION */
+/*LAST SECTION */
 .last-section {
     display: flex;
     flex-flow: column wrap;
     background-color: #540B51;
     width: 100%;
-    height: 800px;
-    border-bottom-left-radius: 30%;
-    border-bottom-right-radius: 30%;
+    height: 300px;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 40%;
 }
 .last-section h3 {
     color: white;
-    font-size: 5.5em;
+    font-size: 1em;
     font-weight: 700;
     align-self: center;
     padding: 25px;
-    margin-top: 35px;
-    margin-left: 25px;
+    margin-top: 15px;
+    margin-left: 10px;
 }
 
 /* FOOTER */
 footer {
     background-color: white;
 }
+#slack-footer-img {
+    margin: 15px;
+    width: 10%;
+    height: 10%;
+}
 .footer-info {
     display: flex;
     flex-flow: row wrap;
+    margin: 5px;
 }
 .footer-info > ul, .extra-footer-info, .social-media-i {
     list-style: none;
 }
+.footer-info > ul > li {
+    color: gray;
+    line-height: 2em;
+    justify-content: space-around;
+}
 .footer-info > ul > li, .extra-footer-info > li {
-    font-size: 3em;
+    font-size: 0.8em;
+}
+.extra-footer-info {
+    font-weight: 600;
+    line-height: 2.2em;
+    margin: 15px;
+}
+#download {
+    color: #4285F4;
+}
+.footer-info-tl {
+    font-weight: 600;
+    color: black !important;
 }
 .social-media-i {
     display: flex;
     flex-flow: row wrap;
 }
 .social-media-i > li > i {
-    font-size: 80px;
+    font-size: 16px;
+}
+.slack-rights {
+    margin: 10px;
 }
 .slack-rights > small {
-    font-size: 2.5em;
+    font-size: 0.8em;
+    color: grey;
+    padding: 10px;
 }
