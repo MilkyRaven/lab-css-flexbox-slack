@@ -151,3 +151,88 @@ header {
     text-align: left;
     color: #2E71A6;
 }
+
+/* SECTION SLACK STATS */
+.slack-stats {
+    background-color: white;
+    display: flex;
+    flex-flow: wrap column;
+}
+.slack-stats h3 {
+    font-size: 5.5em;
+    padding: 80px;
+}
+.slack-stats > p {
+    font-size: 3em;
+    padding: 50px;
+}
+.btn-box {
+    display: flex;
+    flex-flow: column wrap;
+}
+.btn-box > button {
+    width: 1000px;
+    height: 150px;
+    font-size: 2.2em;
+    font-weight: 500;
+    text-transform: uppercase;
+    border-radius: 20px;
+    border: none;
+    margin-top: 50px;
+}
+.slack-stats-ls {
+    list-style: none;
+}
+.stats-num {
+    font-size: 6em;
+    font-weight: 800;
+    color: #540B51;
+}
+.stats-txt {
+    font-size: 2.5em;
+    font-weight: 500;
+}
+/* LAST SECTION */
+.last-section {
+    display: flex;
+    flex-flow: column wrap;
+    background-color: #540B51;
+    width: 100%;
+    height: 800px;
+    border-bottom-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+}
+.last-section h3 {
+    color: white;
+    font-size: 5.5em;
+    font-weight: 700;
+    align-self: center;
+    padding: 25px;
+    margin-top: 35px;
+    margin-left: 25px;
+}
+
+/* FOOTER */
+footer {
+    background-color: white;
+}
+.footer-info {
+    display: flex;
+    flex-flow: row wrap;
+}
+.footer-info > ul, .extra-footer-info, .social-media-i {
+    list-style: none;
+}
+.footer-info > ul > li, .extra-footer-info > li {
+    font-size: 3em;
+}
+.social-media-i {
+    display: flex;
+    flex-flow: row wrap;
+}
+.social-media-i > li > i {
+    font-size: 80px;
+}
+.slack-rights > small {
+    font-size: 2.5em;
+}
