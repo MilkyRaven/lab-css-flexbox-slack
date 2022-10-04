@@ -16,12 +16,13 @@ footer links grey: #454245
 }
 body {
     width: 200vh;
-    background-color: #540B51;
+    background-color:#F3EAE2
 }
 nav {
     display: flex;
     flex-flow: wrap row;
-    /*background-color: forestgreen;*/
+    background-color: #540B51;
+    border: none;
 }
 .menu-container {
     display: flex;
@@ -37,9 +38,14 @@ nav {
 .search {
     margin-top: 80px;
 }
+.search > button {
+    background-color: transparent;
+    border: none;
+}
 .nav-btn > img {
     height: 70px ;
     width: 70px;
+    padding: 25px;
 } 
 
 /* HEADER SECTION */
@@ -47,6 +53,7 @@ nav {
 header {
     display: flex;
     flex-flow: column;
+    background-color: #540B51;
 }
 .intro-text {
     color: white;
@@ -80,17 +87,20 @@ header {
     margin-top: 50px;
 }
 #google-btn {
+    display: flex;
     width: 1000px;
     height: 150px;
     margin-top: 20px;
     background-color: #4285F4;
     border-radius: 20px;
+    align-items: center;
 }
 #google-btn > span {
     text-transform: uppercase;
     font-size: 2.2em;
     font-weight: 500;
     color: white;
+
 }
 .companies {
     background-color: #F3EAE2;
@@ -109,4 +119,35 @@ header {
 
 .companies-img > img {
     padding: 30px;
+}
+/* TEAM SECTION */
+.team-section, .work-section, .tools-section {
+    display: flex;
+    flex-flow: column wrap;
+    margin-top: 70px;
+}
+.team-txt h2, .work-txt h2, .tools-txt h2 {
+    font-size: 5.5em;
+    font-weight: 700;
+    text-align: left;
+    padding: 25px;
+    margin-top: 35px;
+    margin-left: 25px;
+}
+.team-txt p, .work-txt p, .tools-txt p {
+    font-size: 3em;
+    text-align: justify;
+    line-height: 1.4em;
+    padding: 50px;
+    margin-left: 25px;
+}
+.link {
+    text-decoration: none;
+}
+.link-text {
+    font-size: 3em;
+    padding: 25px;
+    margin-left: 25px;
+    text-align: left;
+    color: #2E71A6;
 }
