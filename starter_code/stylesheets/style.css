@@ -335,7 +335,23 @@ hr {
 /* IPAD FORMAT */
 
 @media only screen and (min-width:768px) and  (max-width: 1024px) {
-    body {
-      background-color: lightblue;
-    }
-  }
+ header, .btn-box, .slack-stats-ls {
+    display: flex;
+    flex-flow: row;
+ }
+ #team-img, #work-img, #tools-img {
+    height: 400px;
+ }
+.last-section > .btn-box {
+    display: flex;
+    flex-flow: column;
+}
+.extra-footer-info {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.slack-rights {
+    text-align: center;
+}
+}
