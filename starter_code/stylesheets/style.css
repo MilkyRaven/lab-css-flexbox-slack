@@ -350,8 +350,53 @@ hr {
     display: flex;
     flex-flow: row wrap;
 }
-
 .slack-rights {
     text-align: center;
 }
 }
+
+/* 1024 - 1044 FORMAT */
+/* añadir -> sign in and try for free hidden on html */
+@media only screen and (min-width:768px) and  (max-width: 1024px) {
+    header {
+        display: flex;
+        flex-flow: row;
+    }
+    .menu-container > ul {
+        display: flex !important;
+        flex-flow: row wrap;
+        list-style: none;
+        margin-top: 33px;
+    }
+    .menu-container > ul > li > a {
+        color: white;
+        text-decoration: none;
+        padding: 20px;
+        font-size: 0.8em;
+        font-weight: 500;
+    }
+    .intro-text {
+        width: 1000px;
+    }
+    .intro-text h1 {
+        font-size: 4em;
+        margin-top: 20px;
+        padding: 10px;
+    }
+    .intro-text p {
+        margin-top: 70px;
+        padding: 15px;
+    }
+    .hero-img-container {
+        width: 50%;
+    }
+    #hero-img {
+        height: 500px;
+        width: 800px;
+        overflow: hidden;
+    }
+    .sign-up-btn {
+        padding: 40px;
+        margin-bottom: 50px;
+    }
+}   
