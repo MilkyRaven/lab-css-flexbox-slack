@@ -263,12 +263,13 @@ header {
 }
 .white-button {
     background-color:#540B51;
-    border-color: white;
+    border: 2px solid white;
     color: white;
 
 }
 .purple-button {
     color: #540B51;
+    border: none;
 }
 
 /* FOOTER */
@@ -339,16 +340,113 @@ hr {
     display: flex;
     flex-flow: row;
  }
- #team-img, #work-img, #tools-img {
-    height: 400px;
+ .intro-text h1 {
+    text-align: left;
+    margin-left: 20px;
+    font-size: 4em;
  }
-.last-section > .btn-box {
+ .intro-text p {
+    margin: 20px;
+    text-align: left;
+ }
+ #email-btn, #google-btn {
+    width: 90%;
+    margin-left: 20px;
+ }
+ .hero-img-container {
+    width: 700px;
+ }
+ #hero-img {
+    margin-top: 100px;
+    width: 400px;
+    height: 40%;
+ }
+ .team-img-container, .work-img-container, .tools-img-container {
+    margin: 0 !important;
+    width: 60%;
+ }
+ .work-img-container {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+ }
+ 
+ #work-img{
+    width: 500px;
+    margin: 0;
+ }
+ .team-txt, .work-txt, .tools-txt {
+    padding: 60px;
+ }
+ .team-txt h2, .work-txt h2, .tools-txt h2 {
+    margin-left: 55px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 1.7em;
+    text-align: left;
+}
+.team-txt p, .work-txt p, .tools-txt p {
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+    justify-content: left;
+    font-size: 1.2em;
+    font-weight: 400;
+}
+ .companies p {
+    padding-bottom: 5px;
+ }
+ .companies-img {
+    display: flex;
+    flex-flow: row wrap;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-bottom: 20px;
+ }
+.link {
+    margin-left: 55px;
+}
+.link-text {
+    font-size: 1.2em;
+}
+.slack-stats > .btn-box > button {
+    margin: 10px;
+}
+.slack-stats > .btn-box {
+    margin-bottom: 30px;
+}
+
+ .last-section > .btn-box {
     display: flex;
     flex-flow: column;
+}
+.white-button, .purple-button {
+    margin-bottom: 10px;
+}
+.last-section h3 {
+    font-size: 2.5em;
+}
+.stats-txt {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#slack-footer-img {
+    width: 6%;
+}
+.footer-info {
+    margin-bottom: 30px;
+}
+.footer-info > ul > li {
+    line-height: 40px;
 }
 .extra-footer-info {
     display: flex;
     flex-flow: row wrap;
+    margin-bottom: 25px;
+}
+.social-media-i {
+    margin-bottom: 25px;
 }
 .slack-rights {
     text-align: center;
@@ -357,7 +455,7 @@ hr {
 
 /* 1024 - 1044 FORMAT */
 /* añadir -> sign in and try for free hidden on html */
-@media only screen and (min-width:768px) and  (max-width: 1024px) {
+@media only screen and (min-width:1024px) and  (max-width: 1440px) {
     header {
         display: flex;
         flex-flow: row;
