@@ -453,8 +453,8 @@ hr {
 }
 }
 
-/* 1024 - 1044 FORMAT */
-/* añadir -> sign in and try for free hidden on html */
+/* 1024 - 1440 FORMAT */
+
 @media only screen and (min-width:1024px) and  (max-width: 1440px) {
     header {
         display: flex;
@@ -470,20 +470,21 @@ hr {
         color: white;
         text-decoration: none;
         padding: 20px;
-        font-size: 0.8em;
+        font-size: 1em;
         font-weight: 500;
     }
     .intro-text {
         width: 1000px;
     }
     .intro-text h1 {
-        font-size: 4em;
+        font-size: 4.5em;
         margin-top: 20px;
         padding: 10px;
     }
     .intro-text p {
         margin-top: 70px;
         padding: 15px;
+        font-size: 1.8em;
     }
     .hero-img-container {
         margin-top: 80px;
@@ -497,11 +498,25 @@ hr {
     height: 300px;
     }
     .sign-up-btn {
-        padding: 40px;
+        padding-bottom: 20px;
         margin-bottom: 50px;
+    }
+    .companies > p {
+        font-size: 1.2em;
+    }
+    .companies-img {
+        width: 100%;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    .first-four, .last-two {
+        margin: 10px;
     }
     .team-section, .tools-section {
         flex-flow: row;
+    }
+    .tools-section {
+        padding-bottom: 70px;
     }
     .work-section {
         flex-flow: row-reverse;
@@ -510,21 +525,42 @@ hr {
         width: 60%;
         height: 60%;
     }
+
     #team-img, #work-img, #tools-img {
         width: 100%;
         height: 100%;
+        margin-top: 60px;
     }
-    .team-txt, .work-txt, .tools-txt {
+    .team-txt h2, .work-txt h2, .tools-txt h2 {
+        font-size: 2.5em;
+    }
+    .team-txt, .tools-txt {
         width: 70%;
         height: 70%;
-        padding: 50px;
+        padding: 20px;
         margin-top: 50px;
     }
-    .last-section > .btn-box { 
+    .work-txt {
+        margin-right: 30px;
+    }
+
+    .slack-stats h3 {
+        font-size: 2.5em;
+    }
+    .slack-stats p {
+        font-size: 1.3em;
+        margin-bottom: 40px;
+    }
+
+    .last-section .btn-box { 
         display: flex;
         flex-flow: row;
     }
-    
+    .white-button {
+        margin: 20px;
+    }
+    .purple-button {
+    margin: 20px;   
 }  
 /* BIGGEST SCREEN SIZES */
 @media only screen and (min-width:1044px) {
@@ -620,5 +656,5 @@ hr {
     .extra-footer-info {
         margin: 60px;
     }
-    
-}    
+}
+} 
